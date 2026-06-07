@@ -40,3 +40,27 @@ console.log(typeof scoreValue);
 
 // Link for documentaion
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//***************************************** NOTES *************************************************
+
+// STACK (PRIMITIVE) , HEAP(NON-PRIMITIVE)
+
+let myYoutubename = "Shalini"
+let anothername = myYoutubename;
+    anothername= "Raj"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "shalini@gmail.com",
+    upi:"shalini@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "raj@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
